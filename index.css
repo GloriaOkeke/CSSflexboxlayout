@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    padding: 0;
+    height: 80vh;
+    /* min-width: 600px; */
+    max-width: 700px;
+    margin: auto;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    margin-top: 100px;
+    /* border-radius: 60px; */
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    width: 100%;
+    height:100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.blue{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 100%;
+    height:100%;
+}
+.green{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    width: 100%;
+    height:100%;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    max-height: 45%;
+    min-height: 45%;
+}
+
+a{
+   text-decoration: none;
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+#orangebutton{
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+#orangebutton a{
+    color: hsl(31, 77%, 52%);
+}
+
+#orangebutton a:hover{
+    color: white;
+}
+
+#bluebutton{
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+#bluebutton a{
+    color: hsl(184, 100%, 22%);
+}
+
+#bluebutton a:hover{
+    color:white;
+}
+
+#greenbutton{
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+#greenbutton a{
+    color: hsl(179, 100%, 13%);
+}
+
+#greenbutton a:hover{
+    color: white;
+}
+
+ a:hover{
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+.navbar{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(46, 43, 64);
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+    list-style-type: circle;
+    line-height: 10px;
+}
